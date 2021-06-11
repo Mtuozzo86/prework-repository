@@ -5,6 +5,7 @@ body {
     position: relative;
     
     
+    
 }
 
 h1 {
@@ -15,10 +16,22 @@ h1 {
     color: rgb(255, 255, 255);
     padding-top: 60px;
     
-    
-   
 }
 
+img {
+    position: absolute;
+    width: 150px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%);
+    
+    
+}
+
+.rec {
+    color: white;
+    margin-left: 25%;    ;
+}
 .bookit {
     border-style: double;
     border-width: 10px;
@@ -31,7 +44,10 @@ h1 {
     position: absolute;
     margin-top: 100px;
     left: 50%;
-    
-    
     transform: translate(-50%);
+}
+
+.bookit:hover {
+    border-color: rgb(255, 196, 0);
+    
 }

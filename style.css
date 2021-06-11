@@ -1,3 +1,37 @@
 body {
-    background: blue;
+    background-image: url(https://images.unsplash.com/photo-1577378187001-ed44409a0d44?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+    background-attachment: fixed;
+    background-size:cover;
+    position: relative;
+    
+    
+}
+
+h1 {
+    font-style: italic;
+    font-family: 'Lovers Quarrel', cursive;
+    text-align: center;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    padding-top: 60px;
+    
+    
+   
+}
+
+.bookit {
+    border-style: double;
+    border-width: 10px;
+    border-color: mintcream;
+    color: rgb(255, 255, 255);
+    background: none;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 100px;
+    left: 50%;
+    
+    
+    transform: translate(-50%);
 }

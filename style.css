@@ -33,18 +33,17 @@ header {
 div {
     display: inline-block;
     color:rgb(255, 196, 0);
-    padding: 25px
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
-
-img {
-    position: absolute;
+.image {
+    display: block;
+    text-align: center;
+}
+.scissors {
     width: 150px;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%);
-    
-    
+    margin-top: 100px;
 }
 
 .rec {
@@ -52,6 +51,11 @@ img {
     font-weight: bolder;
       
     font-size: 24px;
+}
+
+.bookit {
+    text-align: center;
+    display: block;
 }
 #bookit {
     border-style: double;
@@ -62,9 +66,8 @@ img {
     font-size: 30px;
     padding: 20px;
     border-radius: 10px;
-    position: absolute;
+    align-content: center;
     margin-top: 100px;
-    left: 50%;
-    transform: translate(-50%);
+    
 }
 

@@ -18,10 +18,20 @@ h1 {
     
 }
 
+header {
+    text-align: center;
+}
+div {
+    display: inline-block;
+    color:rgb(255, 196, 0);
+    padding: 25px
+}
+
+
 img {
     position: absolute;
     width: 150px;
-    top: 70%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%);
     
@@ -29,8 +39,10 @@ img {
 }
 
 .rec {
-    color: white;
-    margin-left: 25%;    ;
+    color: rgb(255, 196, 0);
+    font-weight: bolder;
+      
+    font-size: 24px;
 }
 .bookit {
     border-style: double;
@@ -47,7 +59,3 @@ img {
     transform: translate(-50%);
 }
 
-.bookit:hover {
-    border-color: rgb(255, 196, 0);
-    
-}
